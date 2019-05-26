@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/comment-toxicity-filter/static/css/main.78b66fc7.chunk.css",
+    "main.js": "/comment-toxicity-filter/static/js/main.26c8163c.chunk.js",
+    "main.js.map": "/comment-toxicity-filter/static/js/main.26c8163c.chunk.js.map",
+    "runtime~main.js": "/comment-toxicity-filter/static/js/runtime~main.c592c51d.js",
+    "runtime~main.js.map": "/comment-toxicity-filter/static/js/runtime~main.c592c51d.js.map",
+    "static/js/2.1af89c7e.chunk.js": "/comment-toxicity-filter/static/js/2.1af89c7e.chunk.js",
+    "static/js/2.1af89c7e.chunk.js.map": "/comment-toxicity-filter/static/js/2.1af89c7e.chunk.js.map",
+    "index.html": "/comment-toxicity-filter/index.html",
+    "precache-manifest.66c2a6b0b33b4c5f12e315ab85526a08.js": "/comment-toxicity-filter/precache-manifest.66c2a6b0b33b4c5f12e315ab85526a08.js",
+    "service-worker.js": "/comment-toxicity-filter/service-worker.js",
+    "static/css/main.78b66fc7.chunk.css.map": "/comment-toxicity-filter/static/css/main.78b66fc7.chunk.css.map"
+  }
+}

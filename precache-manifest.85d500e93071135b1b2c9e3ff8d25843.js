@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31ba2df422160c89f88ee2adb00d1680",
+    "revision": "d8173491b3ca6da52f77e5ca16fb78d9",
     "url": "/comment-toxicity-filter/index.html"
   },
   {

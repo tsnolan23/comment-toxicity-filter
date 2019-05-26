@@ -1,0 +1,19 @@
+.Intro {
+  padding: 0 0 48px 0;
+  text-align: center;
+}
+
+.Intro__Title {
+  font-size: 36px;
+  color: #4886fe;
+  margin-top: 0;
+}
+
+.Intro__Desc {
+  max-width: 768px;
+  margin: 24px auto 0;
+  color: #848689;
+  font-size: 18px;
+  line-height: 1.8rem;
+  padding: 0 16px;
+}

@@ -7,7 +7,7 @@ import "./style.css";
 import { PERSPECTIVE_API_URL, TOXICITY_THRESHOLD } from "../constants";
 
 class CommentForm extends React.Component {
-  checkForToxicity = (values, { setErrors }) => {
+  checkForToxicity = (values, { setErrors, resetForm }) => {
     axios
       .post(PERSPECTIVE_API_URL, {
         comment: {
@@ -27,6 +27,7 @@ class CommentForm extends React.Component {
             comment: "Please dial it back, your comment was deemed toxic"
           });
         }
+        resetForm();
         return this.props.onSubmit(values);
       })
       .catch(() => {

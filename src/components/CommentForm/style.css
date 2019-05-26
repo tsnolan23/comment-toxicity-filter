@@ -1,0 +1,62 @@
+.CommentForm {
+  background: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.CommentForm__Textarea {
+  font-size: 16px;
+  height: 100px;
+  width: 400px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  background: #f1f1f1;
+  border: solid 2px #f1f1f1;
+  padding: 12px;
+  border-radius: 5px;
+  transition: border-color 0.3s ease 0s;
+  display: block;
+}
+
+.CommentForm__Textarea:focus {
+  border-color: #3471ea;
+}
+
+.CommentForm__Textarea--error {
+  border-color: red;
+}
+
+.CommentForm__Actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.CommentForm__Submit {
+  background-color: #3471ea;
+  color: #fff;
+  height: 36px;
+  line-height: 36px;
+  min-width: 100px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease 0s;
+}
+
+.CommentForm__Submit:hover {
+  background-color: #245bc1;
+}
+
+.CommentForm__Error {
+  font-size: 12px;
+  color: red;
+  max-width: 60%;
+}

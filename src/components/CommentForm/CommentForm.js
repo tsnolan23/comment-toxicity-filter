@@ -8,7 +8,7 @@ import Card from "../Card";
 import { PERSPECTIVE_API_URL } from "../constants";
 
 class CommentForm extends React.Component {
-  checkForToxicity = (values, { setErrors, resetForm }) => {
+  checkForToxicity = (values, { setSubmitting }) => {
     axios
       .post(PERSPECTIVE_API_URL, {
         comment: {
@@ -23,10 +23,11 @@ class CommentForm extends React.Component {
         }
       })
       .then(res => {
+        setSubmitting(false);
         return this.props.onSubmit(values, res.data.attributeScores);
       })
       .catch(() => {
-        // Handlesubmit even if this fails???
+        // Handle submit even if this fails???
       });
   };
 
@@ -63,7 +64,7 @@ class CommentForm extends React.Component {
                 <div className="CommentForm__Actions">
                   <div className="CommentForm__Error">{errors.comment}</div>
                   <button className="CommentForm__Submit" type="submit">
-                    Submit
+                    {isSubmitting ? "Sending..." : "Submit"}
                   </button>
                 </div>
               </form>

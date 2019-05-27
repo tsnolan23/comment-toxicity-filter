@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/comment-toxicity-filter/precache-manifest.85d500e93071135b1b2c9e3ff8d25843.js"
+  "/comment-toxicity-filter/precache-manifest.db8f6443a205ef006106bba90afe2263.js"
 );
 
 self.addEventListener('message', (event) => {

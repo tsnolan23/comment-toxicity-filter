@@ -1,17 +1,9 @@
-.CommentForm {
-  background: #fff;
-  padding: 16px;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
 .CommentForm__Textarea {
   font-size: 16px;
   height: 100px;
-  width: 400px;
+  width: 100%;
   max-width: 100%;
+  max-height: 100px;
   box-sizing: border-box;
   font-family: inherit;
   background: #f1f1f1;

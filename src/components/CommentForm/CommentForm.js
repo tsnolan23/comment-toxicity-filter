@@ -4,7 +4,8 @@ import * as Yup from "yup";
 import axios from "axios";
 
 import "./style.css";
-import { PERSPECTIVE_API_URL, TOXICITY_THRESHOLD } from "../constants";
+import Card from "../Card";
+import { PERSPECTIVE_API_URL } from "../constants";
 
 class CommentForm extends React.Component {
   checkForToxicity = (values, { setErrors, resetForm }) => {
@@ -15,20 +16,14 @@ class CommentForm extends React.Component {
         },
         languages: ["en"],
         requestedAttributes: {
-          TOXICITY: {}
+          TOXICITY: {},
+          INSULT: {},
+          FLIRTATION: {},
+          THREAT: {}
         }
       })
       .then(res => {
-        const estimatedToxicity =
-          res.data.attributeScores.TOXICITY.summaryScore.value;
-        if (estimatedToxicity >= TOXICITY_THRESHOLD) {
-          // Toxic comment found reject
-          return setErrors({
-            comment: "Please dial it back, your comment was deemed toxic"
-          });
-        }
-        resetForm();
-        return this.props.onSubmit(values);
+        return this.props.onSubmit(values, res.data.attributeScores);
       })
       .catch(() => {
         // Handlesubmit even if this fails???
@@ -37,7 +32,7 @@ class CommentForm extends React.Component {
 
   render() {
     return (
-      <div className="CommentForm">
+      <Card>
         <Formik
           initialValues={{ comment: "" }}
           onSubmit={this.checkForToxicity}
@@ -75,7 +70,7 @@ class CommentForm extends React.Component {
             );
           }}
         </Formik>
-      </div>
+      </Card>
     );
   }
 }

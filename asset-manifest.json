@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/comment-toxicity-filter/static/css/main.d6c0e862.chunk.css",
-    "main.js": "/comment-toxicity-filter/static/js/main.68288292.chunk.js",
-    "main.js.map": "/comment-toxicity-filter/static/js/main.68288292.chunk.js.map",
+    "main.css": "/comment-toxicity-filter/static/css/main.892a0aa6.chunk.css",
+    "main.js": "/comment-toxicity-filter/static/js/main.8083a727.chunk.js",
+    "main.js.map": "/comment-toxicity-filter/static/js/main.8083a727.chunk.js.map",
     "runtime~main.js": "/comment-toxicity-filter/static/js/runtime~main.c592c51d.js",
     "runtime~main.js.map": "/comment-toxicity-filter/static/js/runtime~main.c592c51d.js.map",
-    "static/js/2.dcaf9d55.chunk.js": "/comment-toxicity-filter/static/js/2.dcaf9d55.chunk.js",
-    "static/js/2.dcaf9d55.chunk.js.map": "/comment-toxicity-filter/static/js/2.dcaf9d55.chunk.js.map",
+    "static/js/2.95dd12b7.chunk.js": "/comment-toxicity-filter/static/js/2.95dd12b7.chunk.js",
+    "static/js/2.95dd12b7.chunk.js.map": "/comment-toxicity-filter/static/js/2.95dd12b7.chunk.js.map",
     "index.html": "/comment-toxicity-filter/index.html",
-    "precache-manifest.8a71f3332891e04c5c03cf6ca891abe5.js": "/comment-toxicity-filter/precache-manifest.8a71f3332891e04c5c03cf6ca891abe5.js",
+    "precache-manifest.54d8eee3ed46eaac02798cbf19898a01.js": "/comment-toxicity-filter/precache-manifest.54d8eee3ed46eaac02798cbf19898a01.js",
     "service-worker.js": "/comment-toxicity-filter/service-worker.js",
-    "static/css/main.d6c0e862.chunk.css.map": "/comment-toxicity-filter/static/css/main.d6c0e862.chunk.css.map"
+    "static/css/main.892a0aa6.chunk.css.map": "/comment-toxicity-filter/static/css/main.892a0aa6.chunk.css.map"
   }
 }
